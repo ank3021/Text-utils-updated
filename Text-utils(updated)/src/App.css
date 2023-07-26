@@ -1,0 +1,185 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.primary{
+  color:rgb(0, 68, 128);
+  background-color:crimson;
+  border:double rgb(105, 160, 255) 15px;
+}
+
+.primary:hover{
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px black;
+  transform: translate(10px 10px 10px);
+  transition: 1.2s;
+}
+
+.primary:active{
+  box-shadow: 3px 3px 3px black;
+  transform: translate(-5px -5px -5px);
+  transition: 0.5s;
+}
+
+.Secondary{
+  color:cornflowerblue;
+  background-color:blueviolet;
+  margin: 20px;
+  border:solid darkgreen 15px;
+}
+
+.Secondary:hover{
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px black;
+  transform: translate(10px 10px 10px);
+  transition: 1.2s;
+}
+
+.Secondary:active{
+  box-shadow: 3px 3px 3px black;
+  transform: translate(-5px -5px -5px);
+  transition: 0.5s;
+}
+
+.Tertiary{
+  color:darkgoldenrod;
+  background-color: darkcyan;
+  margin: 5px;
+  border:ridge blue 15px;
+}
+.Tertiary:hover{
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px black;
+  transform: translate(10px 10px 10px);
+  transition: 1.2s;
+}
+
+.Tertiary:active{
+  box-shadow: 3px 3px 3px black;
+  transform: translate(-5px -5px -5px);
+  transition: 0.5s;
+}
+
+.four{
+  color:#61dafb;
+  background-color:coral;
+  margin:15px;
+  border:outset darkseagreen 15px;
+}
+
+.four:hover{
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px black;
+  transform: translate(10px 10px 10px);
+  transition: 1.2s;
+}
+
+.four:active{
+  box-shadow: 3px 3px 3px black;
+  transform: translate(-5px -5px -5px);
+  transition: 0.5s;
+}
+
+.five{
+  color:darkcyan;
+  background-color:darkkhaki;
+  margin:15px;
+  border:inset fuchsia 15px;
+}
+
+.five:hover{
+  border-radius:20px;
+  box-shadow: 10px 10px 10px black;
+  transform: translate(10px 10px 10px);
+  transition: 1.2s;
+}
+
+.five:active{
+  box-shadow: 3px 3px 3px black;
+  transform: translate(-5px -5px -5px);
+  transition: 0.5s;
+}
+
+.six{
+  color:crimson;
+  background-color: cornflowerblue;
+  margin:15px;
+  border: groove lightseagreen 15px;
+}
+
+.six:hover{
+  border-radius:20px;
+  box-shadow: 10px 10px 10px black;
+  transform: translate(10px 10px 10px);
+  transition: 1.2s;
+}
+
+.six:active{
+  box-shadow: 3px 3px 3px black;
+  transform: translate(-5px -5px -5px);
+  transition: 0.5s;
+}
+
+
+.form-control{
+  border: outset darkred 20px;
+  background-color:chartreuse;
+}
+.form-control2
+{
+  background-color:cadetblue;
+}
+
+.heading{
+  margin:15px;
+  color:maroon;
+  background-color:darkcyan;
+  display:inline-block;
+  border: ridge tan 10px;
+  padding:10px;
+}
+
+.heading:hover{
+   box-shadow: 10px 10px 10px black;
+   transform: translate(10px 10px 10px);
+   transition: 1.2s;
+}
+
+
